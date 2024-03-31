@@ -12,7 +12,7 @@ import openai
 
 # Load environment variables
 load_dotenv()
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+OPENAI_API_KEY = os.getenv("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")
 
 # Initialize OpenAI API
 if not OPENAI_API_KEY:

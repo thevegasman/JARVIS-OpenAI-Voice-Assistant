@@ -1,15 +1,11 @@
 import openai
 import gtts
 import speech_recognition as sr
-from playsound import playsound
-import pyaudio
 import pygame 
-import uuid
-import io
 from tempfile import NamedTemporaryFile
 
 # Replace with your OpenAI API key
-openai.api_key = "your-OpenAI-API-key"
+openai.api_key = "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"
 
 def generate_response(prompt):
     completions = openai.ChatCompletion.create(
